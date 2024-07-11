@@ -88,11 +88,33 @@ Exercise 7: Using the `slice()` method
 Complete Exercise 7 in the space below:
 */
 
+// const foods = ["pizza", "cheeseburger"]
+// const foods2 = foods.toSpliced(0, 1, "sushi", "cupcake")
+// console.log('Exercise 6 result:', foods2)
+
+// const yummy = foods2.slice(0, 2)
+// console.log('Exercise 7 result:', yummy);
+
+/*
+Exercise 8: Finding an index
+
+1) Using the `indexOf()` method, find the index of the string 'tofu' in the 
+   `foods` array. 
+
+2) Assign it to a variable named `soyIdx`.
+
+Complete Exercise 8 in the space below:
+*/
+
 const foods = ["pizza", "cheeseburger"]
 const foods2 = foods.toSpliced(0, 1, "sushi", "cupcake")
 console.log('Exercise 6 result:', foods2)
 
-const yummy = foods2.slice(0, 2)
-console.log('Exercise 7 result:', yummy);
+const soyIdx = foods.indexOf("tofu")
+console.log('Exercise 8 result:', soyIdx);
+
+// check to confirm code is correct 
+const pizzaIdx = foods.indexOf("pizza")
+console.log('Exercise 8 result:', pizzaIdx);
 
 
