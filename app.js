@@ -145,4 +145,36 @@ console.log('Exercise 10 result:', hasSoup);
 
 console.log(hasTofu) // proof outcome = correct
 
+/*
+Exercise 11: Odd numbers from an array
+
+1) Choose a method to iterate through the `nums` array.
+
+2) Push each odd number to a new array named `odds`.
+
+Hint: Initialize the `odds` variable to an empty array before the iteration.
+
+Complete Exercise 11 in the space below:
+*/
+
+const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
+
+const odds = []
+
+// for (let nums = 0; nums < nums.length; nums++) {
+//    if (nums % 2 != 0) {        // modulo operator "E"
+//       odds.push[nums]
+//    }
+// }
+
+nums.forEach((num) => {
+   console.log(odds);
+   if (num % 2 != 0) {        // modulo operator "E" 
+     odds.push(num)
+   }})
+console.log('Exercise 11 result:', odds)
+
+
+
+
 
