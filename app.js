@@ -34,10 +34,9 @@ Exercise 3: Insert at the beginning
 Complete Exercise 3 in the space below:
 */
 
-// const foods = ["pizza", "cheeseburger"];  
-// const firstElement = foods.shift()
-// console.log('Exercise 3 result:', foods);
-// console.log(firstElement)
+const foods = ["pizza", "cheeseburger"];  
+const newElement = foods.unshift("taco")
+console.log('Exercise 3 result:', foods);
 
 /*
 Exercise 4: Access an array element
@@ -48,8 +47,9 @@ Exercise 4: Access an array element
 2) Assign it to a variable called `favFood`.
 
 Complete Exercise 4 in the space below:
-*/
+// */
 
-const foods = ["pizza", "cheeseburger"];  
-const favFood = foods[0]
-console.log('Exercise 4 result:', favFood);
+// const foods = ["pizza", "cheeseburger"];  
+// const favFood = foods[0]
+// console.log('Exercise 4 result:', favFood);
+
