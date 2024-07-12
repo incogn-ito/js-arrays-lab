@@ -161,7 +161,7 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 const odds = []
 
-// for (let nums = 0; nums < nums.length; nums++) {     // no longer sure how I do this using a for loop...
+// for (let nums = 0; nums < nums.length; nums++) {    
 //    if (nums % 2 != 0) {        // modulo operator "E"
 //       odds.push[nums]
 //    }
@@ -247,6 +247,31 @@ numArrays.forEach((numArray, idx) => {
       }
 })
 console.log('Exercise 13 result:', numList)
+
+console.log(numArrays) //  original array was not changed
+
+/*
+Exercise 14: Accessing within nested arrays
+
+1) Retrieve the number `66` from the `numArrays` array. As part of this process
+   do not alter the original `numArrays` array.
+
+2) Assign it to a variable called `num`.
+
+Complete Exercise 14 in the space below:
+*/
+
+const num = []
+
+const remove = numArrays[2].splice(1, 1)  
+
+console.log(remove)
+
+num.push(remove)
+
+console.log('Exercise 14 result:', num);
+
+console.log(numArrays) // --> proof outcome correct
 
 
 
