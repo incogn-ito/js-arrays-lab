@@ -287,10 +287,22 @@ Hint: Be sure to declare and initialize the total variable before the iterations
 Complete Exercise 15 in the space below:
 */
 
+
 const total = []
 
+let sum = 0
 
-console.log('Exercise 15 result:\n', total);
+for (let i = 0; i < num.length; i++) {
+   sum += num[i];
+   total.push(sum)
+ }
+ 
+console.log('Exercise 15 result:', total);
+
+
+
+
+
 
 
 
