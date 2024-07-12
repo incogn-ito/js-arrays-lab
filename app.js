@@ -263,7 +263,7 @@ Complete Exercise 14 in the space below:
 
 const num = []
 
-const remove = numArrays[2].splice(1, 1)  
+const remove = numArrays[2].slice(1)  //corrected 
 
 console.log(remove)
 
@@ -273,6 +273,24 @@ console.log('Exercise 14 result:', num);
 
 console.log(numArrays) // --> proof outcome correct
 
+
+/*
+Exercise 15: Nested array sum
+
+1) Use nested loops or `forEach()` methods to sum up all numbers within 
+   `numArrays` nested arrays.
+   
+2) Assign the sum to a variable called `total`.
+
+Hint: Be sure to declare and initialize the total variable before the iterations.
+
+Complete Exercise 15 in the space below:
+*/
+
+const total = []
+
+
+console.log('Exercise 15 result:\n', total);
 
 
 
