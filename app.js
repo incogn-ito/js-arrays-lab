@@ -161,7 +161,7 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 const odds = []
 
-// for (let nums = 0; nums < nums.length; nums++) {
+// for (let nums = 0; nums < nums.length; nums++) {     // no longer sure how I do this using a for loop...
 //    if (nums % 2 != 0) {        // modulo operator "E"
 //       odds.push[nums]
 //    }
@@ -174,6 +174,47 @@ nums.forEach((num) => {
    }})
 console.log('Exercise 11 result:', odds)
 
+/*
+Exercise 12: FizzBuzz with arrays
+
+1) Choose a method to iterate through the `nums` array. 
+
+2. As you loop, sort the numbers into new arrays based on the following rules:
+
+   - Push any number evenly divisible by 3 to an array called `fizz`.
+   - Push any number evenly divisible by 5 to an array called `buzz`.
+   - Push any number that is evenly divisible by 3 and 5 to an array called
+     `fizzbuzz`.
+
+   Note: A single number may meet more than one of the above rules. If it does,
+         it should be placed in multiple arrays. For example, the number `15`
+         will appear in the `fizz`, `buzz`, and `fizzbuzz` arrays.
+
+Complete Exercise 12 in the space below:
+*/
+
+const fizz = [] // div by 3
+const buzz = [] // div by 5
+const fizzbuzz = [] // div by 3 or 5
+
+nums.forEach((num) => {
+   console.log(fizz);
+   if (num % 3 === 0) {        
+     fizz.push(num)
+   }
+   console.log(buzz);
+  if (num % 5 === 0) {        
+     buzz.push(num)
+   }
+   console.log(buzz);
+  if (num % 5 === 0 && num % 3 === 0) {        
+     fizzbuzz.push(num)
+   }
+})
+console.log('Exercise 12 Results:');
+console.log('  fizz:', fizz);
+console.log('  buzz:', buzz);
+console.log('  fizzbuzz:', fizzbuzz);
 
 
 
