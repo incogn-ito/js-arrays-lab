@@ -288,14 +288,24 @@ Complete Exercise 15 in the space below:
 */
 
 
-const total = []
+// const numArrays = [
+// 	[100, 5, 23],    //0
+// 	[15, 21, 72, 9],  //1
+// 	[45, 66],         //2
+// 	[7, 81, 90]       //3  
+//   // [10, 81, 90]  --> proof outcome correct / it changed to idx 4
+// ]
 
-let sum = 0
 
-for (let i = 0; i < num.length; i++) {
-   sum += num[i];
-   total.push(sum)
- }
+let total = 0
+
+numArrays.forEach((numArray) => {
+   console.log(numArray)
+   numArray.forEach((number) => {
+      console.log(number)
+      total += number
+   })
+})
  
 console.log('Exercise 15 result:', total);
 
